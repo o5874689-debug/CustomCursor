@@ -1,7 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <vector xmlns:android="http://schemas.android.com/apk/res/android"
-    android:width="48dp" android:height="48dp"
-    android:viewportWidth="48" android:viewportHeight="48">
-    <path android:fillColor="#00E5FF" android:strokeColor="#0A0E1A" android:strokeWidth="2"
-        android:pathData="M 8,4 L 8,36 L 16,28 L 22,44 L 26,42 L 20,26 L 32,26 Z" />
+    android:width="48dp"
+    android:height="48dp"
+    android:viewportWidth="48"
+    android:viewportHeight="48">
+
+    <!-- Mor crewmate gövdesi -->
+    <path
+        android:fillColor="#9B4DFF"
+        android:strokeColor="#241238"
+        android:strokeWidth="2"
+        android:pathData="M8,4 L8,37 L16,29 L21,41 C22,44 27,45 29,42 L31,38 L27,28 L39,28 C42,28 44,25 42,22 L35,16 C32,13 29,11 25,10 L21,4 Z"/>
+
+    <!-- Vizör -->
+    <path
+        android:fillColor="#BDEFFF"
+        android:strokeColor="#241238"
+        android:strokeWidth="1.5"
+        android:pathData="M18,12 L25,12 C29,12 32,14 34,17 L36,20 L23,20 C19,20 17,17 18,12 Z"/>
+
+    <!-- Vizör parlaması -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M21,14 L25,14 L23,17 L20,17 Z"/>
+
 </vector>
